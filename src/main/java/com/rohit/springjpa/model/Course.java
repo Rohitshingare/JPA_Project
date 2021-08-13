@@ -1,9 +1,13 @@
 package com.rohit.springjpa.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+/*
+ * 
+ * 
+ * 
+ * Date : 13/08/2021
+ * Author name : rohit shingare
+ * 
+ */
 
 import javax.persistence.*;
 
@@ -14,10 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-//@Data
-//@AllArgsConstructor
-//@NoArgsConstructor
-//@Builder
+
 public class Course {
 
     @Id

@@ -1,16 +1,12 @@
 package com.rohit.springjpa.model;
 
-import lombok.*;
 
 import javax.persistence.*;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 @Entity
-//@Data
-//@AllArgsConstructor
-//@NoArgsConstructor
-//@Builder
+
 //@ToString(exclude = "course")
 public class CourseMaterial {
 

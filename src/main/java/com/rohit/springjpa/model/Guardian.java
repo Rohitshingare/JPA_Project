@@ -1,9 +1,6 @@
 package com.rohit.springjpa.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 import javax.persistence.AttributeOverride;
 import javax.persistence.AttributeOverrides;
@@ -11,10 +8,7 @@ import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
 @Embeddable
-//@Data
-//@AllArgsConstructor
-//@NoArgsConstructor
-//@Builder
+
 @AttributeOverrides({
         @AttributeOverride(
                 name = "name",

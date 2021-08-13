@@ -1,17 +1,11 @@
 package com.rohit.springjpa.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+
 
 import javax.persistence.*;
 
 @Entity
-//@Data
-//@AllArgsConstructor
-//@NoArgsConstructor //not working
-//@Builder
+
 @Table(
         name = "tbl_student",
         uniqueConstraints = @UniqueConstraint(
